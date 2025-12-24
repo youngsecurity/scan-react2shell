@@ -5,11 +5,11 @@
     Checks for vulnerable versions of React 19.x and Next.js 15.x that use
     React Server Components (RSC) Flight protocol
 .PARAMETER Path
-    Root directory containing GitHub repositories (default: F:\GitHub\)
+    Root directory containing GitHub repositories (default: current directory)
 #>
 
 param(
-    [string]$Path = "F:\GitHub\"
+    [string]$Path = (Get-Location).Path
 )
 
 $VulnerableRepos = @()
