@@ -1,0 +1,4 @@
+# Ignore scan results CSV
+cve-2025-55182-scan-results.csv
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md
